@@ -5,12 +5,20 @@
     <meta charset="utf-8" />
     <title>My Webpage</title>
     <link rel="stylesheet" href="Styles.css" />
+	<script src="Build/UnityLoader.js"></script>
+	<script>
+		UnityLoader.instantiate("unityContainer","Build/Web.json);
+	</script>
+
+
 
 </head>
 <body>
     <div id = "page">
         <div id ="Header">
             <h1>Alpha Juan Studios First Project</h1>
+			
+			
 
         </div>
         <div id = "Menu">
@@ -33,7 +41,7 @@
             <p>Bellow are early concepts of the character design.</p>
             <img src="charconcept.jpg" style="width: 500px; hieght: 500px;" alt="character concepts"/>
        
-       
+			<div id="unityContainer" style="width: 720px; hieght: 480px;"
        
        </div>
         <div id = "Footer">
